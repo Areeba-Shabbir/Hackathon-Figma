@@ -1,21 +1,4 @@
-// import React from 'react'
-// import Card from './common/Card'
-// const Section = () => {
-//   return (
-//     <div className='flex'>
-//       <Card
-//       imageUrl='/assets/imgs/img1.png'
-//        title='Side Table'
 
-       
-//        />
-
-//       <Card title='Side Table' imageUrl='/assets/imgs/img2.png'/>
-//     </div>
-//   )
-// }
-
-// export default Section
 
 
 import Image from 'next/image'
@@ -26,7 +9,7 @@ const Section = () => {
     <div className='flex justify-center items-center bg-pink-100'>
        <div className="max-w-md m-2 p-4 ">
       
-        {/* Image */}
+      
         <Image 
           src='/img/image1.png' 
           alt='id' 
@@ -35,7 +18,7 @@ const Section = () => {
           className=" "
         />
     
-      {/* Title */}
+      
       <h3 className="mt-[-50px] mb-4 text-3xl font-medium  text-gray-800">
         Side Table
       </h3>
@@ -47,7 +30,7 @@ const Section = () => {
       
        <div className="max-w-md m-2 p-4    ">
       
-        {/* Image */}
+        
         <Image 
           src='/img/image2.png' 
           alt='id' 
@@ -56,7 +39,7 @@ const Section = () => {
           className=""
         />
     
-      {/* Title */}
+      
       <h3 className="mt-[-50px] mb-4 text-3xl font-medium  text-gray-800">
         Side Table
       </h3>
