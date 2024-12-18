@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+// src/app/layout.tsx
 import Header from "@/app/component/header";
+
 
 import Footer from "@/app/component/footer";
 
